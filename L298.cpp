@@ -95,7 +95,10 @@ void L298::test(int speed)
   _setSpeedMotorA(speed);
   _setSpeedMotorB(speed*0.925);
   }
-// Left is MotorA
+/*
+  Left is MotorA
+  Right is MotorB
+*/
 /*
 	PRIVATE
 */
